@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Lenovo, 1, LIC=HN82M-XZ7CS-JN1A9-4EJVQ-E1BVL-Q7PC5
+ 
+Tool Versions:
+Toolchain:       PK251 Prof. Developers Kit  Version: 5.60.0.0
+Toolchain Path:  D:\keil5\C251\BIN
+C Compiler:      C251.exe V5.60.0.0
+Assembler:       A251.exe V4.69.13.0
+Linker/Locator:  L251.exe V4.66.93.0
+Library Manager: LIB251.exe V4.30.1.0
+Hex Converter:   OH251.exe V1.47.0.0
+CPU DLL:         S251.DLL V3.129.0.0
+Dialog DLL:      DCORE51.DLL V2.81.6.0 
+<h2>Project:</h2>
+E:\杂物\大二-2\单片机课设\工程\oled\ks.uvproj
+Project File Date:  05/11/2023
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(33): warning C140: 'InitADC' undefined; assuming 'extern int InitADC()'
+compiling oled.c...
+oled.c(25): warning C47: 'a': unreferenced local variable
+oled.c(141): warning C188: 'parameter 1': value truncated
+oled.c(145): warning C188: 'parameter 1': value truncated
+oled.c(247): warning C188: 'parameter 2': value truncated
+oled.c(277): warning C188: 'parameter 2': value truncated
+oled.c(282): warning C188: 'parameter 1': value truncated
+oled.c(287): warning C188: 'parameter 1': value truncated
+oled.c(287): warning C188: 'parameter 3': value truncated
+oled.c(311): warning C188: 'parameter 2': value truncated
+compiling ADC.c...
+linking...
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_Display_On/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    fill_picture/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    Delay_50ms/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_ShowString/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_On/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    delay_ms/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_Display_Off/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    Delay_1ms/oled
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DrawBMP/oled
+*** WARNING L25: DATA TYPES DIFFERENT
+    SYMBOL:  InitADC
+    MODULE:  .\Objects\main.obj (main)
+   DEFINED:  .\Objects\ADC.obj (ADC)
+Program Size: data=26.0 edata+hdata=256 xdata=0 const=0 code=5300
+creating hex file from ".\Objects\oled"...
+".\Objects\oled" - 0 Error(s), 20 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
